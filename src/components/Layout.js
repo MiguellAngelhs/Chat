@@ -19,6 +19,7 @@ export default class Layout extends Component {
 	componentWillMount() {
 		this.initSocket()
 	}
+	
 
 	/*
 	*	Connect to and initializes the socket.
