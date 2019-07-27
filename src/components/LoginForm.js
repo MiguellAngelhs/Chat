@@ -46,7 +46,7 @@ export default class LoginForm extends Component {
 					<label htmlFor="nickname">
 						<h2>Tienes un apodo?</h2>
 					</label>
-					<input
+					<input 
 						ref={(input)=>{ this.textInput = input }} 
 						type="text"
 						id="nickname"
